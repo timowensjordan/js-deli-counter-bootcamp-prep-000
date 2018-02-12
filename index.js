@@ -14,7 +14,7 @@ function nowServing(array){
 function currentLine(array){
   let i=0;
   if (i<array.length){
-    return `The line is currently: `;
+    return `The line is currently: ${position.join `;
   }else{
     return `The line is currently empty.`;
   }
