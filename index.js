@@ -13,6 +13,6 @@ function nowServing(array){
 function currentLine(array){
   let i=0;
   if (i===array.length){
-    return `The line is currently empty`;
+    return `The line is currently empty.`;
   }
 }
