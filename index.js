@@ -16,4 +16,7 @@ function currentLine(array){
   if (i===array.length){
     return `The line is currently empty.`;
   }
+  if (i<array.length){
+    
+  }
 }
