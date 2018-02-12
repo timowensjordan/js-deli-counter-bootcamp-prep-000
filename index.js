@@ -11,8 +11,11 @@ function nowServing(array){
   }
 }
 function currentLine(array){
-  let i=0;
-  if (i===array.length){
+  if (array.length===0){
     return `The line is currently empty.`;
   }
+  for (let i=0;i<array.length;i++){
+    
+  }
 }
+
