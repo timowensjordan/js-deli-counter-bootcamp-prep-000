@@ -32,5 +32,11 @@ function currentLine(katzDeliLine) {
   }
 
   return `The line is currently: ${positions.join(', ')}`
+}for (let i = 0; i < katzDeliLine.length; i++) {
+     // this for loop will keep pushing the names from the katzDeliLine array into our positions array along with their indexes, so at first loop it will push (0+1) which equales 1. plus the name Ada... and so on [1.Ada, 2. Tim] ..
+    positions.push(`${i + 1}. ${katzDeliLine[i]}`);
+  }
+
+  return `The line is currently: ${positions.join(', ')}`;
 }
 
