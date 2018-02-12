@@ -19,9 +19,3 @@ function currentLine(array){
     return `The line is currently empty.`;
   }
 }
-
-function currentLine2(array){
-  for (var i=0;i<array.length;i++){
-    return `The line is currently: 
-  }
-}
