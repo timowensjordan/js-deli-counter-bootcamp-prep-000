@@ -21,5 +21,6 @@ function currentLine(array){
 }
 
 function currentLine2(array){
+  for (var i=0;i<array.length;i++)
   
 }
