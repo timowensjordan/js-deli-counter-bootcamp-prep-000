@@ -16,7 +16,7 @@ function currentLine(array){
     return `The line is currently empty.`;
   }
   for (let i=0;i<array.length;i++){
-    numArray.push(`${i+1}.${array[i]}`)
+    numArray.push(`${i+1}. ${array[i]}`)
   }
   return `The line is currently: ${numArray.join(', ')}`
 }
