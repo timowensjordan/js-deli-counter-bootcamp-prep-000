@@ -26,3 +26,5 @@ function currentLine(array){
 
   return `The line is currently: ${positions.join(', ')}`;
 }
+
+
