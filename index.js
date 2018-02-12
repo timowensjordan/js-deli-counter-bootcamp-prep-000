@@ -15,7 +15,14 @@ function currentLine(array){
     return `The line is currently empty.`;
   }
   for (let i=0;i<array.length;i++){
-    
+    return `The line is currently:`;
   }
 }
 
+
+  for (let i = 0; i < katzDeliLine.length; i++) {
+    positions.push(`${i + 1}. ${katzDeliLine[i]}`);
+  }
+
+  return `The line is currently: ${positions.join(', ')}`;
+}
