@@ -17,6 +17,6 @@ function currentLine(array){
   }
   for (let i=0;i<array.length;i++){
     numArray.push(`${i+1}. ${array[i]}`);
-    return `The line is currently: ${numArray.join(', ')}`;
   }
+  return `The line is currently: ${numArray.join(', ')}`;
 }
