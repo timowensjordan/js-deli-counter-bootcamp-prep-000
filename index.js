@@ -19,3 +19,7 @@ function currentLine(array){
     return `The line is currently empty.`;
   }
 }
+
+function currentLine2(array){
+  
+}
